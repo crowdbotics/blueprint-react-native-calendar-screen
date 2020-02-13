@@ -5,7 +5,7 @@ import CalendarViewScreen from "./screens/CalendarView";
 import Home from "./screens/";
 
 
-export const CalendarNavigator = createStackNavigator(
+export default CalendarNavigator = createStackNavigator(
   {
     CalendarLogin: { screen: CalendarLoginScreen },
     CalendarView: { screen: CalendarViewScreen },
