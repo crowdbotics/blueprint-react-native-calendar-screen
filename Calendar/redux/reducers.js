@@ -6,7 +6,7 @@ const initialState = {
   events: {}
 };
 
-export const CalendarReducer = (state = initialState, action) => {
+export default CalendarReducer = (state = initialState, action) => {
   switch (action.type) {
     case actions.CALENDAR_GOOGLE_LOGIN_SUCCESS:
       return { ...state, user: action.user };
